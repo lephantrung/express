@@ -1,0 +1,59 @@
+
+
+body {
+	background: #232323;
+	margin: 0px;
+	padding: 0 auto;
+	font-family: all;
+	width: 100%;
+	text-align: center;
+}
+.jumbotron {
+	background: rgb(0,150,150);
+	color: white;
+	font-size: inherit;
+	margin: 0px;
+	border: solid #232323 1px;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+.square_cell {
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	float: left;
+	background: purple;
+	border-radius: 20%;
+	transition: background 1.0s;
+	}
+
+.nav-container {
+	background: white;
+	width: 100%;
+	padding: 0 auto;
+}
+
+button {
+	border: none;
+	display: inline-block;
+	background-color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	height: 30px;
+	margin: 0px;
+}
+
+button:hover {
+	background: rgb(0,150,150);
+	transition: background 1.0s;
+}
+td{
+	width:33%;
+}
+
+#guessColor {
+	text-transform: uppercase;
+}
